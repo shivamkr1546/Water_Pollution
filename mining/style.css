@@ -1,0 +1,147 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+    /* background-image: url('photos/water_pollution.jfif'); */
+}
+
+.container {
+    margin-inline: auto;
+    background-color: #001B48;
+    height : 60px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    padding: 10px 0px 0px 10px;
+}
+
+.nav-items a {
+    color : black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.border a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border a:hover {
+    color: blue;
+    /* background-color: red; */
+}
+
+.border a:focus {
+    width: 200px;
+    /* background-color: red; */
+}
+.search-box {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.search-box:focus{
+    width:300px;
+}
+.search{
+    border: none;
+    background: #001B48;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    padding: 0 20px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    /* padding-left: 430px; */
+    margin-left: auto;
+}
+
+/* .space {
+    display: block;
+    margin-left: auto;
+    display: flex;
+} */
+
+.join {
+    margin-right: 25px;
+}
+
+.mining{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mining_p p {
+    text-align: center;
+}
+
+.mining_p {
+    margin-left: 20px;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.wastewater_dischange{
+    margin-left: 20px;
+}
+
+.chemical_usage{
+    margin-left: 20px;
+}
+
+.Sedimentation_and_Erosion{
+    margin-left: 20px;
+}
+
+.Acid_Mine_Drainage{
+    margin-left: 20px;
+}
+
+.Tailings_and_Waste_Dumps{
+    margin-left: 20px;
+}
+
+.Underground_Mining_and_Dewatering{
+    margin-left: 20px;
+}
+
+
+.Runoff_from_Mining_Areas{
+    margin-left: 20px;
+}
+
+.Contaminated_Groundwater{
+    margin-left: 20px;
+}
+
+.last{
+    background-color: #018ABE;
+    margin-left: -20px;
+}
