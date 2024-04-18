@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-inline: auto;
+    background-color: #001B48;
+    height : 60px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+
+.logo {
+    padding: 10px 0px 0px 10px;
+}
+
+.nav-items a {
+    color : #001B48;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.border a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border a:hover {
+    color: #02457A;
+}
+
+.border a:focus {
+    width: 200px;
+}
+.search-box {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.search-box:focus{
+    width:300px;
+}
+.search{
+    border: none;
+    background: #001B48;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    padding: 0 20px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    margin-left: auto;
+}
+
+.join {
+    margin-right: 25px;
+}
+.content{
+    background: linear-gradient(90deg, #97CADB 40%, #D6EBEE 85%);
+}
+
+.content img{
+    opacity: 50%;
+    transform: scaleX(-1);
+}
+
+.content h2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+.content h3{
+    color: #001B48;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/*----------------------------------- OVERVIEW -----------------------------*/
+
+
+.overview {
+    margin-bottom: 15px;
+}
+
+.overview h1 {
+    text-align: center;
+}
+
+.overview p {
+    text-align: center;
+    padding: 0px 50px;
+    color: #018ABE;
+}
+
+
+/*------------------------- FRESH WATER PART ----------------------------------------*/
+
+.industry {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.industry a{
+    color: black;
+    text-decoration: none;
+}
+
+.industry a:hover {
+    color: #018ABE;
+}
+
+.pollutants {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #001B48;
+    color: white;
+}
+
+
+.one {
+    display: flex;
+}
+
+.one img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.one_onecon h3 {
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+.one_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.one_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.one_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.text_area_one {
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+/*--------------------------- LINES -----------------------------------------------------*/
+
+.line_1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.line_two {
+    padding-top: 30px;
+}
+
+.line_three {
+    margin-top: 30px;
+}
+
+.line_five {
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+
+.line_six {
+    padding-top: 30px;
+}
+
+/*-------------------- OIL POLLUTION PART ---------------------------------------*/
+
+.two {
+    display: flex;
+}
+
+.wholeoil {
+    background: linear-gradient(90deg, #97CADB 40%, #D6EBEE 85%);
+
+}
+
+.two img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.two_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+
+.two_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.two_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.two_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.twocongraph {
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.oilg1 img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.oilg2 img {
+    border-radius: 30px;
+    /* padding-left: 50px; */
+}
+
+/*------------------------------- MINING OR TWO_TWOCON-------------------------------------------------- */
+
+.three {
+    display: flex;
+}
+
+.wholeminn {
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.three img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.three_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.three_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.three_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.three_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.threecongraph {
+    display: flex;
+    padding-top: 30px;
+}
+
+.mining img {
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.mining1 img {
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 50px;
+}
+
+/*--------------------- STORMWATER AND DRAINAGE ------------------*/
+
+.urban {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* background-color: rgb(76, 76, 176); */
+}
+
+.urban a{
+    color: black;
+    text-decoration: none;
+}
+
+.urban a:hover {
+    color:  #018ABE;
+}
+
+.wholestorm {
+    background: linear-gradient(90deg, #97CADB 40%, #D6E8EE 85%);
+}
+
+.four {
+    display: flex;
+}
+
+.four img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.four_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.four_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.four_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.four_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.fourcongraph {
+    display: flex;
+    margin-top: 30px;
+}
+
+.urbanstorm img {
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+.urbanstorm1 img {
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+/*---------------------------- SEWAGE AND WASTE -------------------*/
+
+.wholesewage {
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.five {
+    display: flex;
+}
+
+.five img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.five_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.five_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.five_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.five_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.fivecongraph {
+    display: flex;
+    margin-top: 30px;
+}
+
+.sewage img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.sewage1 img {
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+}
+
+/*----------------------- pesticides ---------------------*/
+
+/*---------------------------- IRRIGATION RUNOFF -------------------------------------*/
+
+.agriculture {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.agriculture a{
+    color: black;
+    text-decoration: none;
+}
+
+.agriculture a:hover {
+    color: #018ABE;
+}
+
+.six {
+    display: flex;
+    background: linear-gradient(90deg, #97CADB 40%, #D6E8EE 85%);
+    padding-bottom: 50px;
+}
+
+.agriculture {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.agriculture a{
+    text-decoration: none;
+    color: black;
+}
+
+.six img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.six_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.six_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.six_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.six_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.sixcongraph {
+    display: flex;
+    margin-top: 0px;
+    background: linear-gradient(90deg, #97CADB 40%, #D6E8EE 85%);
+}
+
+.sewage img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.sewage1 img {
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+}
+
+/*---------------------------- SILATION --------------------------------------------------*/
+
+.seven {
+    display: flex;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.seven img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.seven_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.seven_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.seven_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.seven_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.sevencongraph {
+    display: flex;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.sewage img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.sewage1 img {
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+}
+
+/*------------------------------------------------------- THERMAL POLLUTANTS -----------------------------------------------*/
+
+.thermal {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.thermal a{
+    color: black;
+    text-decoration: none;
+}
+
+.thermal a:hover {
+    color: #018ABE;
+}
+
+.eight {
+    display: flex;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.thermal {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.thermal a{
+    text-decoration: none;
+    color: black;
+}
+
+.eight img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.eight_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.eight_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.eight_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.eight_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.eightcongraph {
+    display: flex;
+    padding-top: 30px;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.sewage img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.sewage1 img {
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+}
+
+/*---------------------------------------------- CHEMICAL POLLUTANTS ---------------------------------------------*/
+
+.nine {
+    display: flex;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.chemical {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.chemical a{
+    text-decoration: none;
+    color: black;
+}
+
+.nine img {
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.nine_onecon h3 {
+    padding: 30px 0px 0px 420px;;
+}
+.nine_onecon p {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 19px;
+}
+
+.nine_onecon img {
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nine_onecon img:hover {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.ninecongraph {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+.sewage img {
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.sewage1 img {
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+}
+
+
+/*----------------------------------------------- EFFECTS -------------------------------------------------*/
+
+.effects {
+    align-items: center;
+    text-align: center;
+}
+
+
+.effects_p {
+    padding: 20px 20px;
+    text-align: center;
+    color: black;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+/*----------------------------------------------- CASE STUDY --------------------------------------------------*/
+
+.casestudy {
+    text-align: center;
+}
+.casestudy_p {
+    padding: 20px 20px;
+    background: linear-gradient(90deg, #97CADB 40%, #D6E8EE 85%);
+}
+
+/*------------------------------------------------ PREVENTION --------------------------------------------------*/
+
+.prevention {
+    text-align: center;
+    padding: 30px;
+}
+.prevention_p {
+    /* text-align: center; */
+    padding: 30px 20px;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+
+#prowaste_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#rrr_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#strmwater_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#wstewater_p {
+    padding-top: 10px;
+    text-align: center;
+}
+#susagri_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#ripzone_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#eduaawar_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#reguaenfo_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#moniarep_b {
+    padding-top: 10px;
+    text-align: center;
+}
+#susdevo_b {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*------------------------------------------------ INVOLVEMENT ---------------------------------------------------*/
+
+.involv {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(90deg, #97CADB 40%, #D6E8EE 85%);
+}
+#involv_b {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#involv_content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*------------------------------------------------ FOOTER --------------------------------------------------------*/
+
+.foot {
+    background-color: #02457A;
+    height: 180px;
+    color: white;
+}
+
+.roles {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+#content {
+    margin-right: 300px;
+}
+#content p {
+    margin-top: 10px;
+    margin-left: -5px;
+}
+#developer {
+    margin-right: 320px;
+}
+#developer p {
+    margin-top: 10px;
+    margin-left: -15px;
+}
+#writer p {
+    margin-top: 10px;
+    margin-left: -15px;
+}
