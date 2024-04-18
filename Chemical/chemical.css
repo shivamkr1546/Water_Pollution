@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+    /* background-image: url('photos/water_pollution.jfif'); */
+}
+
+.container {
+    margin-inline: auto;
+    background-color: #001B48;
+    height : 60px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    padding: 10px 0px 0px 10px;
+}
+
+.nav-items a {
+    color : black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.border a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border a:hover {
+    color: blue;
+    /* background-color: red; */
+}
+
+.border a:focus {
+    width: 200px;
+    /* background-color: red; */
+}
+.search-box {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.search-box:focus{
+    width:300px;
+}
+.search{
+    border: none;
+    background: #001B48;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    padding: 0 20px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    /* padding-left: 430px; */
+    margin-left: auto;
+}
+
+/* .space {
+    display: block;
+    margin-left: auto;
+    display: flex;
+} */
+
+.join {
+    margin-right: 25px;
+}
+
+.line{
+    margin-top: 30px;
+}
+
+.chemical{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.all{
+    background: linear-gradient(90deg, #D6E8EE 40%, #97CADB 85%);
+}
+.heading{
+    text-align: center;
+}
+
+.Heavy_metals{
+    margin-left: 20px;
+}
+
+.Direct_discharge{
+    margin-left: 20px;
+}
+
+.Indirect_discharge{
+    margin-left: 20px;
+}
+
+.Harm_aquatic_life{
+    margin-left: 20px;
+}
+
+.Contaminate_drinking_water{
+    margin-left: 20px;
+}
+
+.Reduce_recreational_opportunities{
+    margin-left: 20px;
+}
+
+.Pesticides_and_herbicides{
+    margin-left: 20px;
+}
+
+.Pharmaceuticals{
+    margin-left: 20px;
+}
+
+.Personal_care_products{
+    margin-left: 20px;
+}
+
